@@ -58,7 +58,7 @@ class SearchInputState extends State<SearchInput> {
       child: Row(
         children: <Widget>[
           Icon(Icons.search,
-              color: Theme.of(context).textTheme.bodyMedium?.color),
+              color: Theme.of(context).textTheme.bodySmall?.color),
           SizedBox(width: 8),
           Expanded(
             child: TextField(
