@@ -27,7 +27,7 @@ class SelectPlaceAction extends StatelessWidget {
               ),
               Container(
                   decoration: BoxDecoration(
-                    color: AppColors.primary,
+                    color: Color(0xffFF4F46),
                     borderRadius: BorderRadius.circular(8),
                   ),
                   padding: EdgeInsets.all(6),
