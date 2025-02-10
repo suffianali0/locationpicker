@@ -25,7 +25,17 @@ class SelectPlaceAction extends StatelessWidget {
                   ],
                 ),
               ),
-              Icon(Icons.remove)
+              Container(
+                  decoration: BoxDecoration(
+                    color: AppColors.primary,
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  padding: EdgeInsets.all(6),
+                  child: Icon(
+                    Icons.check,
+                    color: Colors.white,
+                    size: 25,
+                  )),
             ],
           ),
         ),
